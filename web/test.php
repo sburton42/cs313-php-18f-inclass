@@ -11,7 +11,9 @@
 
 <?php
 
-	echo '<li>This is coming from php.</li>';
+	for ($i = 0; $i < 100; $i++) {
+		echo "<li>Hello from the other side ($i) and \$i</li>";
+	}
 
 ?>
 
