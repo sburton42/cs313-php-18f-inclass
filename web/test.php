@@ -12,7 +12,7 @@
 <?php
 
 	for ($i = 0; $i < 100; $i++) {
-		echo "<li>Hello from the other side ($i) and \$i</li>";
+		echo "<li>Hello from the other side ($i) and \$i</li>\n";
 	}
 
 ?>
