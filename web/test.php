@@ -11,7 +11,7 @@
 
 <?php
 
-	echo 'This is coming from php.';
+	echo '<li>This is coming from php.</li>';
 
 ?>
 
