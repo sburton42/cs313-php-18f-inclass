@@ -1,6 +1,9 @@
 <?php
 
-$username = $_PST['username'];
+$username = $_POST['username'];
+skdlfj
+skjfasj
+jkkajdsf
 
 ?>
 <!DOCTYPE html>
