@@ -1,6 +1,6 @@
 <?php
 
-$username = $_POST['username'];
+$username = $_PST['username'];
 
 ?>
 <!DOCTYPE html>
