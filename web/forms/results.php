@@ -1,6 +1,6 @@
 <?php
 
-$username = htmlspecialchars($_POST['username']);
+$username = $_POST["username"];
 
 ?>
 <!DOCTYPE html>
