@@ -1,6 +1,6 @@
 <?php
 
-$username = htmlspecialchars($_POST["username"]);
+$username = htmlspecialchars($_GET["username"]);
 
 ?>
 <!DOCTYPE html>
@@ -11,6 +11,11 @@ $username = htmlspecialchars($_POST["username"]);
 <body>
 
 <h1>Welcome user: <?php echo $username; ?></h1>
+
+<?php
+var_dump($_REQUEST);
+
+?>
 
 </body>
 </html>
