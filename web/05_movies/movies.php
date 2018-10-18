@@ -9,7 +9,7 @@ $db = get_db();
 // $stmt->bindValue(':name', $name, PDO::PARAM_STR);
 // $stmt->execute();
 // $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
-$stmt = $db->prepare('SELECT id, title, year FROM movies');
+$stmt = $db->prepare('SELECT id, title, year FROM movie');
 $stmt->execute();
 $movies = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
