@@ -35,5 +35,10 @@ foreach ($note_rows as $note_row)
 }
 ?>
 
+<form method="post" action="insert_note.php">
+	<textarea name="note_content"></textarea>
+	<input type="submit" value="Create Note">
+</form>
+
 </body>
 </html>
