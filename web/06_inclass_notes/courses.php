@@ -26,7 +26,7 @@ foreach ($courses as $course) {
 	$name = $course['name'];
 	$code = $course['code'];
 
-	echo "<li><p>$code - $name</p></li>\n";
+	echo "<li><p><a href='notes.php?id=$id'>$code - $name</a></p></li>\n";
 
 }
 ?>
